@@ -1,23 +1,21 @@
 # Covid-19-Tracker-India-Telegram-Bot
-<center>
-<img align="center" src="https://thecoderzone.com/covid19/logo.jpg">
+<p align="center"><img src="https://thecoderzone.com/covid19/logo.jpg"></p>
   
 <center><div width="100%">
-  <img src="https://thecoderzone.com/covid19/ss/merge_from_ofoct.jpg">
+  <p align="center"><img src="https://thecoderzone.com/covid19/ss/merge_from_ofoct.jpg"></p>
 </div></center>
 
-Get latest update on covid-19 news and patient counts
+<h1 align="center">Get latest update on covid-19 news and patient counts</h1>
 
-<h2>Use below commands</h2>
-<ul>
-  <li>Count - get count of cases in india</li>
-<li>World - get count of global cases</li>
-<li>News - get latest news updates on covid-19</li>
-<li>State (eg : Gujarat) - get count of particular state</li>
-<li>City (eg : Ahmadabad) - get count of particular city</li>
+### Commands:
+  - [x] Count - get count of cases in india</li>
+- [x] World - get count of global cases</li>
+- [x] News - get latest news updates on covid-19</li>
+- [x] State (eg : Gujarat) - get count of particular state</li>
+- [x] City (eg : Ahmadabad) - get count of particular city</li>
   </ul>
 
-<h3>NOTE : THIS BOT IS FOR INDIA ONLY IT WON'T GIVE DETAILS OF OTHER COUNTRIES.</h3>
+<h3 align="center">NOTE : THIS BOT IS FOR INDIA ONLY IT WON'T GIVE DETAILS OF OTHER COUNTRIES.</h3>
 </center>
 
-<h3>USING API OF <a href="https://github.com/covid19india/api">covid19india.org</a></h3>
+<h3 align="center">USING API OF <a href="https://github.com/covid19india/api">covid19india.org</a></h3>
