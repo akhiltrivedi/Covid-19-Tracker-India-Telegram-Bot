@@ -2,12 +2,12 @@
 <center>
 <img src="https://thecoderzone.com/covid19/logo.jpg">
   
-<div width="100%">
+<center><div width="100%">
   <div width="25%"><img src="https://thecoderzone.com/covid19/tel1.png"></divv>
   <div width="25%"><img src="https://thecoderzone.com/covid19/tel1.png"></divv>
   <div width="25%"><img src="https://thecoderzone.com/covid19/tel1.png"></divv>
   <div width="25%"><img src="https://thecoderzone.com/covid19/tel1.png"></divv>
-</div>
+</div></center>
 
 Get latest update on covid-19 news and patient counts
 
