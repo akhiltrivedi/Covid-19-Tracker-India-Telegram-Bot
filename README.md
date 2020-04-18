@@ -3,10 +3,7 @@
 <img src="https://thecoderzone.com/covid19/logo.jpg">
   
 <center><div width="100%">
-  <div width="25%"><img src="https://thecoderzone.com/covid19/tel1.png"></divv>
-  <div width="25%"><img src="https://thecoderzone.com/covid19/tel1.png"></divv>
-  <div width="25%"><img src="https://thecoderzone.com/covid19/tel1.png"></divv>
-  <div width="25%"><img src="https://thecoderzone.com/covid19/tel1.png"></divv>
+  <img src="https://thecoderzone.com/covid19/merge_from_ofoct.jpg">
 </div></center>
 
 Get latest update on covid-19 news and patient counts
