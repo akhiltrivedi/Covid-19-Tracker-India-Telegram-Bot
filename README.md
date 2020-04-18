@@ -15,3 +15,5 @@ Get latest update on covid-19 news and patient counts
 
 <h3>NOTE : THIS BOT IS FOR INDIA ONLY IT WON'T GIVE DETAILS OF OTHER COUNTRIES.</h3>
 </center>
+
+<h3>USING API OF <a href="https://github.com/covid19india/api">covid19india.org</a></h3>
