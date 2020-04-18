@@ -1,5 +1,5 @@
 # Covid-19-Tracker-India-Telegram-Bot
-
+<center>
 <img src="https://thecoderzone.com/covid19/logo.jpg">
 
 Get latest update on covid-19 news and patient counts
@@ -13,4 +13,5 @@ Get latest update on covid-19 news and patient counts
 <li>City (eg : Ahmadabad) - get count of particular city</li>
   </ul>
 
-<h3>NOTE : THIS BOT IS FOR INDIA ONLY IT WILL NOT GIVE DETAILS ABOUT OTHER COUNTRIES.</h3>
+<h3>NOTE : THIS BOT IS FOR INDIA ONLY IT WON'T GIVE DETAILS OF OTHER COUNTRIES.</h3>
+</center>
