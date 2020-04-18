@@ -4,11 +4,13 @@
 
 Get latest update on covid-19 news and patient counts
 
-Use below commands
-Count - get count of cases in india
-World - get count of global cases
-News - get latest news updates on covid-19
-State (eg : Gujarat) - get count of particular state
-City (eg : Ahmadabad) - get count of particular city
+<h2>Use below commands</h2>
+<ul>
+  <li>Count - get count of cases in india</li>
+<li>World - get count of global cases</li>
+<li>News - get latest news updates on covid-19</li>
+<li>State (eg : Gujarat) - get count of particular state</li>
+<li>City (eg : Ahmadabad) - get count of particular city</li>
+  </ul>
 
-NOTE : THIS BOT IS FOR INDIA ONLY IT WILL NOT GIVE DETAILS ABOUT OTHER COUNTRIES.
+<h3>NOTE : THIS BOT IS FOR INDIA ONLY IT WILL NOT GIVE DETAILS ABOUT OTHER COUNTRIES.</h3>
