@@ -1,6 +1,6 @@
 <?php
 
-$botToken = "1165224811:AAH0t7tGJ44F2DABL7MXg6Wx8LmFaBC8YSo";
+$botToken = "TOKEN HERE";
 $website = "https://api.telegram.org/bot".$botToken;
 
 $request = file_get_contents( 'php://input' );
@@ -9,11 +9,11 @@ $request = json_decode( $request, TRUE );
 
 if( !$request )
 {
-    file_get_contents($website."/sendmessage?chat_id=649020417&text=novalidjson");
+    file_get_contents($website."/sendmessage?chat_id=ID&text=novalidjson");
 }
 elseif( !isset($request['update_id']) || !isset($request['message']) )
 {
-    file_get_contents($website."/sendmessage?chat_id=649020417&text=nochat");
+    file_get_contents($website."/sendmessage?chat_id=ID&text=nochat");
 }
 else
 {
