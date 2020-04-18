@@ -1,6 +1,8 @@
 # Covid-19-Tracker-India-Telegram-Bot
 <center>
 <img src="https://thecoderzone.com/covid19/logo.jpg">
+  
+<img src="https://thecoderzone.com/covid19/tel1.png">  
 
 Get latest update on covid-19 news and patient counts
 
