@@ -1,6 +1,6 @@
 # Covid-19-Tracker-India-Telegram-Bot
 <center>
-<img src="https://thecoderzone.com/covid19/logo.jpg">
+<img align="center" src="https://thecoderzone.com/covid19/logo.jpg">
   
 <center><div width="100%">
   <img src="https://thecoderzone.com/covid19/ss/merge_from_ofoct.jpg">
