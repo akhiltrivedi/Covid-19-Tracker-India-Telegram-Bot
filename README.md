@@ -1,4 +1,4 @@
-<p align="center"><img width="20%" src="https://thecoderzone.com/covid19/logo.jpg"></p>
+<p align="center"><img width="30%" src="https://thecoderzone.com/covid19/logo.jpg"></p>
 <h3 align="center"><a href="https://t.co/cyk6wRZUcz">Covid 19 India Tracker</a></h3>  
 <center><div width="100%">
   <p align="center"><img src="https://thecoderzone.com/covid19/ss/merge_from_ofoct.jpg"></p>
