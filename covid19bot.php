@@ -25,27 +25,6 @@ else
 		$text = ucwords($request['message']['text']);
 
 		
-
-		//file_get_contents($website."/sendmessage?chat_id=649020417&text=username:".$username." | First Name : ".$first_name." | Chat ID : ".$chat_id." | Text :".$text);
-
-		$servername = "localhost";
-		$dusername = "u183375181_ocNy2";
-		$password = "T8F10m5Qqs";
-		$dbname = 'u183375181_IIwEM';
-		$adate = date('Y-m-d');
-
-		// Create connection
-		$conn = mysqli_connect($servername, $dusername, $password, $dbname);
-
-		// Check connection
-		if (!$conn) {
-		    die("Connection failed: " . mysqli_connect_error());
-		}
-
-		$sql = "INSERT INTO tl_data (chat_id, first_name, user_name, ttext, added_date) VALUES ('$chat_id', '$first_name', '$username', '$text' ,'$adate')";
-		$r = mysqli_query($conn, $sql);
-
-		
 		if($text == '/start')
 		{
 			$msg = "Hi ".$first_name."\n\nBelow are commands on how to use bot\nCount - get total count of cases in india.\World - get total count of global cases.\nNews - latest update on covid-19\nStateName(eg : Gujarat) : get state count with district count.\nCityName(eg : Ahmedabad) : get count of particular city / district.";
