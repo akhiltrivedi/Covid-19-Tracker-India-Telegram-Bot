@@ -23,13 +23,33 @@ else
 		$first_name = $request['message']['from']['first_name'];
 		$username = $request['message']['from']['username'];
 		$text = ucwords($request['message']['text']);
+		
+			$countval = file_get_contents('https://api.covid19india.org/v2/state_district_wise.json');
+			$indiavalue = json_decode($countval, 1);
+			//$final = $indiavalue['country'];
+			
+			$list = array();
 
+			array_push($list, array(["text"=>"Count",'callback_data' => 'myCallbackData ']));
+			array_push($list, array(["text"=>"News",'callback_data' => 'myCallbackData ']));
+			array_push($list, array(["text"=>"World",'callback_data' => 'myCallbackData ']));
+
+
+			foreach ($indiavalue as $item) {			
+			    array_push($list, array(["text"=>$item['state'],'callback_data' => 'myCallbackData ']));
+			}
+
+			
+
+			$replyMarkup = array("keyboard" => $list,"resize_keyboard" => false,"one_time_keyboard" => false);
+	
+			$keyboard = json_encode($replyMarkup, true);
 		
 		if($text == '/start')
 		{
 			$msg = "Hi ".$first_name."\n\nBelow are commands on how to use bot\nCount - get total count of cases in india.\World - get total count of global cases.\nNews - latest update on covid-19\nStateName(eg : Gujarat) : get state count with district count.\nCityName(eg : Ahmedabad) : get count of particular city / district.";
 
-			file_get_contents($website."/sendmessage?chat_id=".$chat_id."&text=".urlencode($msg));
+			file_get_contents($website."/sendmessage?chat_id=".$chat_id."&text=".urlencode($msg)."&parse_mode=HTML&reply_markup=".$keyboard);
 		}
 		elseif($text == "count" || $text == "COUNT" || $text == "Count" || $text == "India" || $text == "india")
 		{
